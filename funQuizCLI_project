@@ -1,0 +1,76 @@
+var readlineSync = require("readline-sync");
+
+var score = 0;
+
+// data of high score
+var highScores = [
+  {
+    name: "Ravi",
+    score: 5,
+  },
+
+  {
+    name: "Anuv",
+    score: 5,
+  },
+  {
+    name: "Riya",
+    score: 5,
+  },
+]
+
+function welcome(){
+  var userName = readlineSync.question("What is your name?");
+  console.log("Welcome "+userName+" Do you know Arpita?");
+}
+
+//play function
+function play(question,answer){
+  var userAnswer = readlineSync.question(question);
+
+  if(userAnswer.toUpperCase() === answer.toUpperCase()){
+    console.log("Right");
+    score = score+1;
+  }else{
+    console.log("Wrong");
+  }
+  console.log("Current score : ", score);
+  console.log("-------------");
+}
+//array
+
+var questions= [{
+  question: "Where do I live?",
+  answer: "Noida"
+},{
+  question: "what is my favourite color?",
+  answer: "Black"
+},{
+  question: "What is my hobby?",
+  answer: "Travelling & art"
+},{
+  question: "Tea or coffee?",
+  answer: "Tea"
+},{
+  question: "Mountain or Sea?",
+  answer: "Mountain"
+}];
+
+// loop game
+
+function game(){
+  for (var i=0; i<questions.length; i++){
+    var currentQuestion = questions[i];
+    play(currentQuestion.question, currentQuestion.answer)
+  }
+}
+
+function showScores(){
+  console.log("Score is: ",score);
+  console.log("Checkout the high score, if you should be there ping me I will update it");
+  highScores.map(score => console.log(score.name, " : ", score.score))
+}
+
+welcome();
+game();
+showScores();
