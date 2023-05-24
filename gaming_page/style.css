@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 15vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.n1{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+   
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    color: white;
+    padding: 30px;
+    font-size: x-large;
+    
+}
+.bottomleft{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+
+}
+.btn1{
+    font-size: large;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px ;
+}
+.btn2{
+    font-size: large;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px ;
+}
+.logo{
+    left: 30px;
+    padding: 30px;
+}
+.n2{
+    right: 30px;
+    padding: 30px;
+}
+.btn3{
+        font-size: large;
+        padding: 10px;
+        background-color: orangered;
+        color: white;
+        border-radius: 10px ;
+}
+.btn4{
+    
+    font-size: large;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px ;
+}
+.r2{
+    text-align: center;
+    font-size: larger;
+}
+.r3{
+    display: flex;
+    padding: 20px;
+}
+.coloum{
+    flex: 15%;
+    padding: 30px;
+    margin: 20px;
+    
+}
+.r2head{
+    position: relative;
+    color: white;
+    padding: 30px;
+    font-size:medium;
+    bottom:80px;
+   
+}
+.download{
+    background-color: orangered;
+    color: white;
+    font-size: small;
+    padding: 10px;
+    border-radius: 10px;
+}
+.n1{
+    font-size: large;
+    justify-content: space-between;
+    word-spacing: 1em;
+    width: 50%;
+}
+.leftimg{
+    padding: 20px;
+}
+main{
+    display: flex;
+}
+.rightsec{
+    margin-right: 20%;
+    font-size: large;
+}
+.title{
+    font-size:x-large;
+}
+.para{
+    font-size: larger;
+    padding: 20px;
+}
+.download1{
+    font-size: large;
+    padding: 10px;
+    background-color: white;
+    color: orangered;
+    
+   
+}
+.imgfoot{
+    padding: 20px;
+    
+}
+.footer{
+    background-color: black;
+}
+.rightfoot{
+    color: white;
+    text-align: right;
+    padding: 40px;
+    margin: auto;
+    
+}
+.bottom-btn{
+    font-size: large;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+}
+
