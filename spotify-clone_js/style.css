@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: white;
+    color: black;
+   
+    
+}
+nav ul li{
+    padding: 0 12px;
+}
+body{
+    background-color: #0476e0;
+    color: white;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px; 
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.bottom{
+    position: sticky;
+    height: 120px;
+    background-color: white;
+    color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.icons{
+    margin-top: 14px;
+
+}
+.container{
+    height: 100vh;
+    color:white;
+    font-family: sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    background-color: black;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('covers/animebg.jpg');
+    flex-direction: column;
+}
+#myProgressBar{
+    width: 80vw;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    width: 60%;
+    background-color:white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+songItemContainer{
+    margin-top:74px ;
+}
+.songItem{
+    margin: 23px 0; 
+}
+.timestamp{
+    margin: 0px 23px;
+}.songItem img{
+    border-radius: 30px;
+    padding-left: 10px;
+}
